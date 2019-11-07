@@ -1,0 +1,11 @@
+node_modules/
+dist/
+data/holidays.json
+tmp/
+lib/
+*.log
+*.tgz
+*.sh
+.eslintcache
+.idea/
+.DS_Store
