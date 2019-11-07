@@ -1,0 +1,2 @@
+# fromProvinceToRegion
+fromProvinceToRegion('MI') // "Lombardia"
