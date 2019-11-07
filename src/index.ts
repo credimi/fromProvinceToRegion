@@ -1,3 +1,4 @@
-export const fromProvinceToRegion (province) => {
+export const fromProvinceToRegion = province => {
+  console.log(province)
   return 'Lombardia'
 }

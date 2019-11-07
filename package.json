@@ -46,6 +46,15 @@
     "*.{ts,tsx}": [
       "prettier --write",
       "git add"
+    ],
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
