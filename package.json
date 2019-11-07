@@ -44,6 +44,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
+      "prettier-eslint --write",
       "git add"
     ]
   },
