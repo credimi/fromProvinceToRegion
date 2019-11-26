@@ -48,7 +48,6 @@ export const fromProvinceToRegion = (province: PROVINCE): REGION => {
     case "LT":
     case "RI":
     case "RM":
-    case "GE":
       return "Lazio"
 
     case "GE":
