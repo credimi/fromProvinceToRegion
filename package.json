@@ -1,6 +1,6 @@
 {
   "name": "from-province-to-region",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fromProvinceToRegion('MI') // \"Lombardia\"",
   "main": "dist/index.js",
   "scripts": {
