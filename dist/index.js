@@ -67,6 +67,7 @@ exports.fromProvinceToRegion = function(province) {
     case 'FM':
     case 'MC':
     case 'PU':
+    case 'PS':
       return 'Marche'
     case 'CB':
     case 'IS':

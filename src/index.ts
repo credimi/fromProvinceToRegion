@@ -76,6 +76,7 @@ export const fromProvinceToRegion = (province: PROVINCE): REGION => {
     case "FM":
     case "MC":
     case "PU":
+    case "PS":
       return "Marche"
 
     case "CB":

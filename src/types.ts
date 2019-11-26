@@ -69,6 +69,7 @@ export type PROVINCE =
   | 'PV'
   | 'PG'
   | 'PU'
+  | 'PS'
   | 'PE'
   | 'PC'
   | 'PI'
