@@ -1,2 +1,3 @@
-import { REGION, PROVINCE } from './types';
-export declare const fromProvinceToRegion: (province: PROVINCE) => REGION;
+import { Region, Province } from './types';
+export { Region, Province };
+export declare const fromProvinceToRegion: (province: Province) => Region;

@@ -1,6 +1,7 @@
-import { REGION, PROVINCE } from './types'
+import { Region, Province } from './types'
+export { Region, Province }
 
-export const fromProvinceToRegion = (province: PROVINCE): REGION => {
+export const fromProvinceToRegion = (province: Province): Region => {
   switch (province) {
     case "AQ":
     case "CH":

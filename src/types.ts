@@ -1,4 +1,4 @@
-export type PROVINCE =
+export type Province =
   | 'AG'
   | 'AL'
   | 'AN'
@@ -111,7 +111,7 @@ export type PROVINCE =
   | 'VI'
   | 'VT'
 
-export type REGION =
+export type Region =
   | 'Abruzzo'
   | 'Basilicata'
   | 'Calabria'
