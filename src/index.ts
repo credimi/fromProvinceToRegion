@@ -1,5 +1,4 @@
 import { Region, Province } from './types'
-export { Region, Province }
 
 export const fromProvinceToRegion = (province: Province): Region => {
   switch (province) {
@@ -155,3 +154,5 @@ export const fromProvinceToRegion = (province: Province): Region => {
       return "Veneto"
   }
 }
+
+export { Region, Province }
